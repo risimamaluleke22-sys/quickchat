@@ -81,7 +81,8 @@ public class QuickChat {
                 System.out.println("\n===== QUICKCHAT MENU =====");
 
                 System.out.println("1. Send Message");
-                System.out.println("2. Quit");
+                System.out.println("2. Show recently sent messages");
+                System.out.println("3. Quit");
 
                 System.out.print("Choose option: ");
 
@@ -131,21 +132,24 @@ public class QuickChat {
                             );
                         }
 
-                        break;
+                       case "2":
 
-                    case "2":
+           System.out.println("Feature coming soon.");
 
-                        System.out.println("Exiting QuickChat...");
+           break;
 
-                        break;
+           case "3":
 
+           System.out.println("Exiting QuickChat...");
+
+           break;
                     default:
 
                         System.out.println("Invalid option.");
 
                 }
 
-            } while (!option.equals("2"));
+            } while (!option.equals("3"));
         }
 
         input.close();
