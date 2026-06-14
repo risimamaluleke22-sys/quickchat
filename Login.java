@@ -74,7 +74,7 @@ public class Login {
 
         if (status) {
             return "Welcome " + firstName + " " + surname
-                    + ", it is great to see you again.";
+                    + ", it is great to see you.";
         } else {
             return "Username or password incorrect.";
         }
